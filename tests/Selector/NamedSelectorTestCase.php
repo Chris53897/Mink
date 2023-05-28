@@ -6,7 +6,7 @@ use Behat\Mink\Selector\NamedSelector;
 use Behat\Mink\Selector\Xpath\Escaper;
 use PHPUnit\Framework\TestCase;
 
-abstract class AbstractNamedSelector extends TestCase
+abstract class NamedSelectorTestCase extends TestCase
 {
     public function testRegisterXpath()
     {
